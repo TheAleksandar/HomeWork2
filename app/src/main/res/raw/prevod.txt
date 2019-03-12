@@ -1,0 +1,4 @@
+one= eden
+ok= dobro
+no=ne
+Admin=AdminMK
