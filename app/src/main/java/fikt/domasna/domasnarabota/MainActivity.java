@@ -1,8 +1,10 @@
 package fikt.domasna.domasnarabota;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -10,11 +12,25 @@ import java.io.InputStream;
 import java.util.Scanner;
 
 public class MainActivity extends AppCompatActivity {
+    private Button button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        button = findViewById(R.id.button3);
+        button.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public  void onClick(View v){
+                OpenActivity2();
+
+            }
+        });
+    }
+    public  void  OpenActivity2(){
+        Intent intent = new Intent(this,AddWord.class);
+        startActivity(intent);
     }
 
     public void Search(View view) {

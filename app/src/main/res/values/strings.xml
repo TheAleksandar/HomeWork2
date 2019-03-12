@@ -1,4 +1,10 @@
 <resources>
-    <string name="app_name">DomasnaRabota</string>
+    <string name="app_name">Domasna Rabota br.2</string>
     <string name="button">Search</string>
+    <string name="ang_mak">Ang to Mak</string>
+    <string name="ang">ang</string>
+    <string name="mkd">mkd</string>
+    <string name="save">save</string>
+    <string name="mk">Mk</string>
+
 </resources>
