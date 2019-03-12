@@ -40,7 +40,7 @@ public class MK_ANG extends AppCompatActivity {
     }
 
     public  void OpenActivity3(){
-        Intent intent = new Intent(this,MK_ANG.class);
+        Intent intent = new Intent(this,MainActivity.class);
         startActivity(intent);
     }
 
