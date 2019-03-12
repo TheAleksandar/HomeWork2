@@ -1,4 +1,44 @@
-one= eden
-ok= dobro
-no=ne
-Admin=AdminMK
+apple=јаболко
+hair=коса
+head=глава
+mobile=мобилен
+internet=интернет
+data=податоци
+source=извор
+application=апликација
+Web=веб
+coding=кодирање
+source code=изворен код
+
+јаболко=apple
+коса=hair
+глава=head
+мобилен=mobile
+интернет=internet
+податоци=data
+извор=source
+апликација=application
+веб=Web
+кодирање=coding
+изворен код=source code
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

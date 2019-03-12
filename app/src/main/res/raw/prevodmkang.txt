@@ -1,0 +1,11 @@
+јаболко=apple
+коса=hair
+глава=head
+мобилен=mobile
+интернет=internet
+податоци=data
+извор=source
+апликација=application
+веб=Web
+кодирање=coding
+изворен код=source code
