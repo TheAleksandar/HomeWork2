@@ -14,25 +14,27 @@ import java.util.Scanner;
 public class MainActivity extends AppCompatActivity {
     private Button button;
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        @Override
+        protected void onCreate(Bundle savedInstanceState) {
+            super.onCreate(savedInstanceState);
+            setContentView(R.layout.activity_main);
 
-        button = findViewById(R.id.button3);
-        button.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public  void onClick(View v){
-                OpenActivity2();
+            button = findViewById(R.id.button3);
+            button.setOnClickListener(new View.OnClickListener(){
+                @Override
+                public  void onClick(View v){
+                    OpenActivity2();
 
-            }
-        });
+                }
+            });
 
         button=findViewById(R.id.button4);
         button.setOnClickListener(new View.OnClickListener(){
             @Override
             public  void onClick(View v){
                 openDialog();
+
+                OpenActivity3();
 
             }
         });
