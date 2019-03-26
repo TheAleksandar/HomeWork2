@@ -32,14 +32,21 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener(){
             @Override
             public  void onClick(View v){
-                OpenActivity3();
+                openDialog();
+
             }
         });
 
     }
 
+    public void openDialog() {
+
+        Dialog dialog=new Dialog();
+        dialog.show(getSupportFragmentManager(),"Dialog Form");
+    }
+
     public  void OpenActivity3(){
-        Intent intent = new Intent(this,MK_ANG.class);
+        Intent intent = new Intent(this, MK_ANG.class);
         startActivity(intent);
     }
 
